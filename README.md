@@ -3,7 +3,7 @@
 ## RULES
 
 A partir d’un tableau en 2 dimensions composé de cellules vous devez en générer un nouveau selon certaines conditions. 
-Une cellule peut avoir un état vivante ou morte. 
+Une cellule peut avoir un état soit vivante soit morte. 
 Chaque cellule a plusieurs voisines, en horizontal, vertical et diagonale.
 
 A chaque étape, les transitions suivantes ont lieu et modifient l’état de chaque cellule :
@@ -12,7 +12,7 @@ A chaque étape, les transitions suivantes ont lieu et modifient l’état de ch
 -    Chaque cellule avec plus de 3 voisins vivants meurt,
 -    Chaque cellule morte avec exactement 3 voisins vivants devient vivante.
 
-Tous les changements de cellules doivent se faire de façon simultané.
+Tous les changements de cellules doivent se faire de façon **simultané**.
 
 ==> Rédiger un programme qui accepteras 2 arguments : un tableau représentant la grille de départ et un entier représentant le nombre d’itérations à réaliser. Ce programme devra afficher en console l’état de la grille après chaque itération
 
